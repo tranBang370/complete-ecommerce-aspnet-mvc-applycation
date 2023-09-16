@@ -13,6 +13,11 @@ namespace eTickets.Models
         public string FullName { get; set; }
         public string Bio { get; set; }
 
-
+        // relationships
+        //
+        // kiểu dữ liệu của phương thức là List<Movie> -> trả về một danh sách các đối tượng Movie
+        // tên phương thức là Movies
+        // dùng để lưu trữ danh sách Movie.
+        public List<Movie> Movies { get; set; }
     }
 }
